@@ -1,8 +1,8 @@
 #/bin/bash
 
 # Run this script as sudo su / root user.
-# Make executable with: chmod +x steps.sh 
-# Execute with: sudo ./steps.sh 
+# Make executable with: chmod +x <script_name_here>.sh 
+# Execute with: sudo ./<script_name_here>.sh 
 
 # Create user: test.
 useradd test
