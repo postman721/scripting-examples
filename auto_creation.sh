@@ -13,7 +13,7 @@ usermod -aG sudo test
 # Make default password to user: test.
 echo 'test:pass123' | chpasswd
 
-# Make test user change the default password, we set.
+# Make test user change the default password.
 passwd --expire test
 
 # Change test user shell to /bin/bash
