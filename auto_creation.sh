@@ -16,6 +16,9 @@ echo 'test:pass123' | chpasswd
 # Make test user change the default password, we set.
 passwd --expire test
 
+# Change test user shell to /bin/bash
+usermod --shell /bin/bash test
+
 # To lock account 
 #sudo passwd -l test
 
